@@ -63,7 +63,7 @@
             <plugin>
                 <groupId>com.sun.xml.ws</groupId>
                 <artifactId>jaxws-maven-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>4.0.1</version>
                 <executions>
                     <execution>
                         <goals>
@@ -74,8 +74,19 @@
                 <configuration>
                     <sourceDestDir>${project.build.directory}/generated-sources/wsimport</sourceDestDir>
                     <packageName>io.bayrktlihn.soap.ws.client</packageName>
+
+<!--                    <wsdlDirectory>${project.basedir}/src/main/resources/wsdl</wsdlDirectory>-->
+
+<!--                    <wsdlDirectory>${project.basedir}/src/main/resources/wsdl</wsdlDirectory>-->
+<!--                    <wsdlFiles>-->
+<!--                        <wsdlFile>vakifbank.wsdl</wsdlFile>-->
+<!--                    </wsdlFiles>-->
+
+
                     <wsdlUrls>
-                        <wsdlUrl>https://onlineodemetest.vakifbank.com.tr:4443/VposService/TransactionServices.asmx?WSDL</wsdlUrl>
+                        <wsdlUrl>
+                            https://onlineodemetest.vakifbank.com.tr:4443/VposService/TransactionServices.asmx?WSDL
+                        </wsdlUrl>
                     </wsdlUrls>
                     <extension>true</extension>
                 </configuration>
