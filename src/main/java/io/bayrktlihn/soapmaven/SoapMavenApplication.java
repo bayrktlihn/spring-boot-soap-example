@@ -32,7 +32,7 @@ public class SoapMavenApplication implements CommandLineRunner {
         vposRequest.setPan("5454545454545454");
         executeVposRequest.setVposRequest(vposRequest);
 
-        ExecuteVposRequestResponse o = soapClient.callSoapService("https://onlineodemetest.vakifbank.com.tr:4443/VposService/TransactionServices.asmx", "PayFlexVPosWebService/ExecuteVposRequest", executeVposRequest);
+        ExecuteVposRequestResponse o = soapClient.callSoapService("PayFlexVPosWebService/ExecuteVposRequest", executeVposRequest);
 
         VposResponse vposResponse = o.getExecuteVposRequestResult();
 

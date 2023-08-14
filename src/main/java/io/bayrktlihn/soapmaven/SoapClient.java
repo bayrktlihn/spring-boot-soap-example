@@ -11,4 +11,11 @@ public class SoapClient extends WebServiceGatewaySupport {
         SoapActionCallback soapActionCallback = new SoapActionCallback(soapAction);
         return (TRESPONSE) webServiceTemplate.marshalSendAndReceive(location, request, soapActionCallback);
     }
+
+
+    public <TRESPONSE, TREQUEST> TRESPONSE callSoapService(String soapAction, TREQUEST request) {
+        WebServiceTemplate webServiceTemplate = getWebServiceTemplate();
+        SoapActionCallback soapActionCallback = new SoapActionCallback(soapAction);
+        return (TRESPONSE) webServiceTemplate.marshalSendAndReceive(request, soapActionCallback);
+    }
 }
