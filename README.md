@@ -1,1 +1,1 @@
-. Wsdl içindeki soapAction'nu ara
+- Wsdl içindeki soapAction'nu ara
