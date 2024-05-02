@@ -72,10 +72,9 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <sourceDestDir>${project.build.directory}/generated-sources/wsimport</sourceDestDir>
+                    <sourceDestDir>${project.build.directory}/generated-sources</sourceDestDir>
                     <packageName>io.bayrktlihn.soap.ws.client</packageName>
 
-<!--                    <wsdlDirectory>${project.basedir}/src/main/resources/wsdl</wsdlDirectory>-->
 
 <!--                    <wsdlDirectory>${project.basedir}/src/main/resources/wsdl</wsdlDirectory>-->
 <!--                    <wsdlFiles>-->
