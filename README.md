@@ -1,3 +1,4 @@
 - Wsdl içindeki soapAction'nu ara
 - style="document", style="rpc" ara eger document varsa buradaki plugini kullan degilse axis-one-example projesine bak
 - EndpointReference ye dikkat et varsa içindeki addresse istek atar.
+- WebServiceClient ara bunu kullancan
