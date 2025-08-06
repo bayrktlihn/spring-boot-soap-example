@@ -46,6 +46,35 @@
 
     <build>
         <plugins>
+
+<!--            ws:importlar sıkıntı çıkarabilir ozaman cxf plugini kullan-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.cxf</groupId>-->
+<!--                <artifactId>cxf-codegen-plugin</artifactId>-->
+<!--                <version>3.6.2</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <id>generate-sources</id>-->
+<!--                        <phase>generate-sources</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>wsdl2java</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <wsdlOptions>-->
+<!--                                <wsdlOption>-->
+<!--                                    <wsdl>src/main/resources/wsdl/ButunlesikKamuMaliYonetimServisi.wsdl</wsdl>-->
+<!--&lt;!&ndash;                                    <extraargs>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <extraarg>-p</extraarg>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <extraarg>com.example.generated</extraarg>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </extraargs>&ndash;&gt;-->
+<!--                                </wsdlOption>-->
+<!--                            </wsdlOptions>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->   
+
+                 
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
