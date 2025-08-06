@@ -63,10 +63,6 @@
 <!--                            <wsdlOptions>-->
 <!--                                <wsdlOption>-->
 <!--                                    <wsdl>src/main/resources/wsdl/ButunlesikKamuMaliYonetimServisi.wsdl</wsdl>-->
-<!--&lt;!&ndash;                                    <extraargs>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <extraarg>-p</extraarg>&ndash;&gt;-->
-<!--&lt;!&ndash;                                        <extraarg>com.example.generated</extraarg>&ndash;&gt;-->
-<!--&lt;!&ndash;                                    </extraargs>&ndash;&gt;-->
 <!--                                </wsdlOption>-->
 <!--                            </wsdlOptions>-->
 <!--                        </configuration>-->
